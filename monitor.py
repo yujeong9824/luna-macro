@@ -164,6 +164,9 @@ def home():
     return html_content
 
 if __name__ == "__main__":
+    # 💡 켜지자마자 즉시 1회 강제 수집하라는 명령어를 여기에 추가합니다!
+    fetch_all_channels() 
+    
     t = threading.Thread(target=cron_job, daemon=True)
     t.start()
     app.run(host="0.0.0.0", port=10000)
