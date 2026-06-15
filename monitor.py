@@ -20,7 +20,7 @@ SHOP_RULES = {
 }
 
 # ⚠️ 이전에 구하셨던 본인의 디스코드 토큰(Authorization)을 꼭 여기에 입력해 주세요!
-DISCORD_TOKEN = "MjkzMDYwOTA4ODU3NTU2OTkz.GeAT_8.66h8PMPISOVRJaW20DcnxHiYXbzCXfMLFPv0n0"
+DISCORD_TOKEN = "MjkzMDYwOTA4ODU3NTU2OTkz.GBL-he.OwqOesWZJANpxzr-_Kv7jq1t0ETxgdGow3c3nk"
 
 market_data = {"물고기": [], "농작물": [], "요리": []}
 
